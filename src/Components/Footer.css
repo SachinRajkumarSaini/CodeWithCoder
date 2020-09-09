@@ -1,0 +1,85 @@
+/* .footer-area{
+    background: url('../Img/footer-bg.png');
+}
+ */
+.text-area {
+ margin-top: 7rem;
+ margin-bottom: 2rem;
+}
+
+.text-area h3{
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font: normal 600 1.5rem/2rem 'Varela Round', sans-serif;
+}
+
+.text-area .para-footer{
+    letter-spacing: 0.2rem;
+    margin-top: 0.8rem;
+    color: #777777;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-area .text-area .icons{
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-area .text-area  .brand-title{
+    font: normal 500 2rem/2rem 'Varela Round', sans-serif;
+    text-shadow:  2px 2px #845fee;
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footer-area .text-area .icons .facebook{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 2rem ;
+}
+.footer-area .text-area .icons .instagram{
+    margin-right: 2rem ;
+}
+.footer-area .text-area .icons .linkedin{
+    margin-right: 2rem ;
+}
+.footer-area .text-area .icons .youtube{
+    margin-right: 2rem ;
+}
+
+.footer-area .text-area .icons .twitter{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+/* Media Query For Mobiles */
+
+@media (max-width: 500px){
+   .footer-area .text-area .para-footer{
+        letter-spacing: 0rem;
+    }
+
+    .footer-area .text-area .facebook{
+        margin-right: 1rem;
+    }
+    .footer-area .text-area .instagram{
+        margin-right: 1rem;
+    }
+    .footer-area .text-area .twitter{
+        margin-right: 1rem;
+    }
+    .footer-area .text-area .linkedin{
+        margin-right: 1rem;
+    }
+    .footer-area .text-area .youtube{
+        margin-right: 1rem;
+    }
+}

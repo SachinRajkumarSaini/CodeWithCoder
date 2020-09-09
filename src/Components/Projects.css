@@ -1,0 +1,20 @@
+.projects-area{
+    margin-top: 8rem;
+}
+
+.projects-area .text-area h1{
+    text-align: center;
+}
+
+.projects-area .projects{
+    margin-top: 3rem;
+}
+
+/* Media Query For Mobiles */
+
+@media (max-width: 768px){
+    .projects-area .text-area h1{
+        font-size: 2.5rem;
+    }
+}
+

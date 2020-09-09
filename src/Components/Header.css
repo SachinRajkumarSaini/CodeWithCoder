@@ -1,0 +1,99 @@
+.header-area{
+    box-sizing: border-box;
+    margin-top: 6rem;
+}
+
+
+.header-area .text-area-banner{
+  padding-top: 15rem;
+  padding-left: 5rem;
+}
+
+.header-area .text-area-banner> h1{
+    font: normal 500 40px/70px 'Varela Round', sans-serif;
+}
+
+.header-area .text-area-banner h1::after{
+    content: "";
+    height: 3px;
+    width: 15rem;
+    background: black;
+    display: inline-block;
+    transform: translateY(-8px);
+    margin-left: 1.5rem;
+}
+
+.header-area .text-area-banner> span{
+    font: normal 600 60px/90px 'Varela Round', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-area .text-area-banner> h4{
+    font: normal 800 30px/60px 'Varela Round', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-area .banner-img{
+    box-sizing: border-box;
+    margin-top: 5rem;
+}
+
+.header-area .text-area-banner .primary-btn-banner{
+    padding: 0.7rem 2.2rem;
+    color:whitesmoke;
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    margin-right: 2rem;
+    transition: background .6s ease; 
+}
+.header-area .text-area-banner .secondary-btn-banner{
+    padding: 0.7rem 2.2rem;
+    color: black;
+    background: whitesmoke;
+    transition: background .6s ease; 
+    border: 3px solid #4458dc; 
+}
+
+.header-area .text-area-banner .primary-btn-banner:hover{
+    color:black;
+    background: whitesmoke;
+    border: 3px solid #4458dc;    
+}
+
+.header-area .text-area-banner .secondary-btn-banner:hover{
+    color:whitesmoke;
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+}
+
+/* Media Query For Tablets Devices */
+@media (min-width: 769px) and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .header-area{
+        box-sizing: border-box;
+        margin: 0rem;
+    }
+    .header-area .text-area-banner{
+        padding-top: 10rem;
+        padding-left: 2rem;
+      }
+      .header-area .text-area-banner h1::after{
+        width: 11rem;
+        margin-left: 1rem;
+    }
+}
+
+/* Media Query For Mobile Devices */
+
+@media (max-width: 768px){
+    .header-area{
+        box-sizing: border-box;
+        margin: 0rem;
+    }
+    .header-area .text-area-banner{
+        padding-top: 10rem;
+        padding-left: 2rem;
+      }
+      .header-area .text-area-banner h1::after{
+        width: 11rem;
+        margin-left: 1rem;
+    }
+}

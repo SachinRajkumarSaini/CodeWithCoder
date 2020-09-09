@@ -1,0 +1,55 @@
+
+.Navigation .nav-link{
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #141313;
+}
+
+.Navigation .nav-link .active{
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.Navigation .nav-link:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #141313;
+}
+
+.Navigation .nav-link .active:active{
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.Navigation .nav-link-projects:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.brand-name{
+    font: normal 500 2rem/2rem 'Varela Round', sans-serif;
+    padding: 0.6rem 0rem 0.5rem 3rem;
+    text-shadow:  2px 2px #845fee;
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Media Query For Mobiles */
+
+@media (max-width: 768px){
+   .Navigation .brand-name{
+       margin-left: -2.5rem;
+       margin-top: 0.5rem;
+    }
+}

@@ -1,0 +1,22 @@
+.project-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.project-area .project-para{
+    color: #777777;
+}
+
+/* Media Query For Mobiles */
+
+@media (max-width: 768px){
+    .project-area{
+        margin-left: 2rem;
+    }
+    .project-area .project-para{
+        padding-left: 1rem;
+    }
+}

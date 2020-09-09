@@ -1,0 +1,85 @@
+.contact-area  .contact-img{
+    margin-left: -4rem;
+ }
+
+ .contact-area .text-area-contact{
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .contact-area .text-area-contact>h1{
+    padding-top: 9rem;
+    font: normal 800 3.5rem/7rem 'Varela Round', sans-serif;
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+ }
+
+ .contact-area .form-title{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 5rem;
+ }
+
+ .contact-area .form-title h1{
+     font: normal 600 3rem/4rem 'Varela Round', sans-serif;
+ }
+
+ .contact-area .form-title p{
+     color: #777777;
+ }
+
+ .form-area .btn-area{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-sizing: border-box;
+ }
+
+ .form-area .primary-btn-contact{
+    padding: 0.7rem 2.2rem;
+    color:whitesmoke;
+    background: linear-gradient(90deg, #4458dc 0%, #845fee 100%);
+    margin-right: 2rem;
+    transition: background .6s ease;
+ }
+
+ .form-area .primary-btn-contact:hover{
+    color:black;
+    background: whitesmoke;
+    border: 3px solid #4458dc;  
+ }
+
+ .form-area p{
+     color: red;
+     margin-left: 0.5rem;
+ }
+
+ /* Media Query for Mobiles */
+
+ @media(max-width: 768px){
+    .contact-area .text-area-contact>h1{
+        padding-top: 2rem;
+        font: normal 800 3rem/3rem 'Varela Round', sans-serif;
+    }
+    .contact-area  .contact-img{
+        margin-left: 0rem;
+        text-align: center;
+     }
+
+     .contact-area .form-title h1{
+        font: normal 700 2.5rem/3rem 'Varela Round', sans-serif;
+        text-align: center;
+    
+     }
+     .contact-area .form-title p{
+        text-align: center;
+    }
+    
+ }

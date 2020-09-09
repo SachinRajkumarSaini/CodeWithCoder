@@ -1,0 +1,28 @@
+.skills-area .skills{
+    background: rgba(248, 252, 253, 0.973);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-height: 24rem;
+    max-height: 24rem;
+    min-width: 13rem;
+}
+
+.skills-area .skills .skill-para{
+    color: #777777;
+}
+
+.skills-area .skills:hover{
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+/* Media Query For Mobiles */
+
+@media (max-width: 768px){
+    .skills-area .skills{
+        margin: 0rem 2rem;
+        margin-left: 2rem;
+    }
+}
