@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import {Col, Figure} from 'react-bootstrap';
+import { Col, Figure } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import './Project.css';
 

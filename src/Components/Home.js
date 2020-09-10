@@ -4,12 +4,12 @@ import Header from './Header';
 import Introduction from './Introduction';
 import Skills from './Skills';
 import Projects from './Projects';
-import Footer from './Footer'; 
+import Footer from './Footer';
 
 const Home = () => {
-    return(
+    return (
         <Fragment>
-            <Navigation home="active" /> 
+            <Navigation home="active" />
             <Header />
             <Introduction />
             <Skills />

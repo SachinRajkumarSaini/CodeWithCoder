@@ -2,9 +2,13 @@
     background: url('../Img/footer-bg.png');
 }
  */
-.text-area {
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+ .text-area {
  margin-top: 7rem;
  margin-bottom: 2rem;
+ font-family: 'Varela Round', sans-serif;
 }
 
 .text-area h3{

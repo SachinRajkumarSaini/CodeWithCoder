@@ -1,5 +1,10 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
 .projects-area{
     margin-top: 8rem;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .projects-area .text-area h1{
