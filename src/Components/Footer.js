@@ -19,7 +19,7 @@ const Footer = () => {
                     <h3>Follow Me</h3>
                     <div className="icons">
                         <a href="https://www.facebook.com/profile.php?id=100011747374303"> <Image src={facebook} className="facebook" fluid /> </a>
-                        <a href="https://instagram.com/vidmax_official?igshid=viuj6itgxf0p"> <Image src={instagram} className="instagram " fluid /> </a>
+                        <a href="https://www.instagram.com/_they_call_me_bunty_/"> <Image src={instagram} className="instagram " fluid /> </a>
                         <a href="https://www.linkedin.com/in/sachin-rajkumar-saini-87a65a1aa"> <Image src={linkedin} className="linkedin " fluid /> </a>
                         <a href="https://www.youtube.com/channel/UClssoj5fX37IVRua_-8ndsw"> <Image src={youtube} className="youtube" fluid /> </a>
                         <a href="https://twitter.com/SachinSaini432?s=09"> <Image src={twitter} className="twitter " fluid /> </a>
