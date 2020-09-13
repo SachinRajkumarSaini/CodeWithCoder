@@ -6,7 +6,7 @@ import './Project.css';
 const Project = (props) => {
     return (
         <Fragment>
-            <Col lg={4} md={6} sm={12} className="project-area">
+            <Col lg={4} md={6} sm={12} className="project-area" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1600">
                 <Figure>
                     <Image src={props.src} fluid />
                 </Figure>

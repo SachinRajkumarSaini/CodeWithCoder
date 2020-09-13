@@ -3,6 +3,9 @@ import Home from './Home';
 import Contact from './Contact';
 import About from './About';
 import { Route, Switch, Redirect } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Routers = () => {
     return (

@@ -21,12 +21,12 @@ const AboutUs = () => {
         <Fragment>
             <Container className="contact-area" >
                 <Row>
-                    <Col lg={6} md={12} sm={12}>
+                    <Col lg={6} md={12} sm={12} data-aos="flip-left" data-aos-easing="ease-out-back" data-aos-duration="1300">
                         <Figure>
                             <Image src={Aboutimg} className="about-img" fluid />
                         </Figure>
                     </Col>
-                    <Col lg={6} md={12} sm={12} className="text-area-about">
+                    <Col lg={6} md={12} sm={12} className="text-area-about" data-aos="flip-right" data-aos-easing="ease-in-cubic" data-aos-duration="1000">
                         <span className="about-title pt-4">About US</span>
                         <p className="pt-3">
                             Welcome to CodeWithCoder, This is Portfolio Website and this Website is Created By Using HTML5, CSS3, Javascript, Bootstrap, Tachyons and React JS.

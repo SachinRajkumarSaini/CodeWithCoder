@@ -15,11 +15,11 @@ const Skills = () => {
     return (
         <Fragment>
             <Container>
-                <Row className="text-area">
+                <Row className="text-area" data-aos="fade-down" data-aos-duration="1000">
                     <h1 className="text-center">Skills</h1>
                     <p className="mt-3 text-center">Passionate Programmer | Web Developer | Android Developer | Coder</p>
                 </Row>
-                <Row className="skills-area">
+                <Row className="skills-area" data-aos="fade-up" >
                     <Skill src={Html5} skill="HTML5" para="HTML5 is a Hyper Text Markup Language. It is the Fifth and Latest Major Version of HTML." />
                     <Skill src={Css3} skill="CSS3" para="Cascading Style Sheet(CSS) is Used to Set the Style in Web Pages that contain HTML elements." />
                     <Skill src={Javascript} skill="Javascript" para="JavaScript is a Scripting or Programming Language that allows you to implement Complex Features on Web Pages." />

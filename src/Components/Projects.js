@@ -10,11 +10,11 @@ import './Projects.css';
 const Projects = () => {
     return (
         <Fragment>
-            <Container className="projects-area">
+            <Container className="projects-area" data-aos="fade-down" data-aos-duration="1000">
                 <Row className="text-area">
                     <h1>RECENTLY DONE PROJECT</h1>
                 </Row>
-                <Row className="projects">
+                <Row className="projects" >
                     <Project src={Grade} name="Grade Calculator" link="https://sachinrajkumarsaini.github.io/Grade_Calculator/" para="Grade Calculator will Find Out Your Total Marks, Percentage & Grade with Final Result." />
                     <Project src={Music} name="Music Player" link="https://sachinrajkumarsaini.github.io/Music_Player/" para="A Simple Music Player For Listening Audio Files With Previous and Next Option." />
                     <Project src={Avatar} name="Avatar Generator" link="https://sachinrajkumarsaini.github.io/Avatar/" para="Avatar Generator Will Generate the Random Avatar By the Name." />

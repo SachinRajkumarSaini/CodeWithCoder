@@ -10,10 +10,10 @@ const Introduction = () => {
         <Fragment>
             <Container className="introduction" fluid>
                 <Row>
-                    <Col lg={6} md={12} sm={12}>
+                    <Col lg={6} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
                         <Image src={About} className="about-img" fluid />
                     </Col>
-                    <Col lg={6} md={12} sm={12} className="text-area-introduction">
+                    <Col lg={6} md={12} sm={12} className="text-area-introduction" data-aos="fade-down" data-aos-duration="1000">
                         <h1>
                             <span>Let Me</span>
                             <span>Introduce</span>

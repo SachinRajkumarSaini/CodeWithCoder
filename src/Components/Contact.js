@@ -21,17 +21,17 @@ const ContactUs = () => {
     return (<Fragment>
         <Container className="contact-area">
             <Row>
-                <Col lg={6} md={12} sm={12}>
+                <Col lg={6} md={12} sm={12} data-aos="fade-right" data-aos-duration="1200">
                     <Figure>
                         <Image src={Contactimg} className="contact-img" />
                     </Figure>
                 </Col>
-                <Col lg={6} md={12} sm={12} className="text-area-contact">
+                <Col lg={6} md={12} sm={12} className="text-area-contact" data-aos="fade-left" data-aos-duration="1200">
                     <h1>Contact US</h1>
                     <h3>We'd love to talk about how we can help you. <span role="img" aria-label="Emoji">🤗🤗</span></h3>
                 </Col>
             </Row>
-            <Row className="form-title">
+            <Row className="form-title" data-aos="fade-down-right" data-aos-duration="1200" >
                 <h1>TELL US ABOUT YOURSELF</h1>
                 <p>Whether you have questions or you would just like to say hello, contact us.</p>
             </Row>
@@ -99,7 +99,7 @@ class FormArea extends Component {
 
         return (<Fragment>
             <Row >
-                <Container className="form-area py-5">
+                <Container className="form-area py-5" data-aos="fade-down-left" data-aos-duration="1400">
                     <Form >
                         <Row>
                             <Col lg={6} md={12} sm={12}>
