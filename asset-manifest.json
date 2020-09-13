@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/CodeWithCoder/static/css/main.22788034.chunk.css",
-    "main.js": "/CodeWithCoder/static/js/main.ef9ac451.chunk.js",
-    "main.js.map": "/CodeWithCoder/static/js/main.ef9ac451.chunk.js.map",
+    "main.js": "/CodeWithCoder/static/js/main.59e57a36.chunk.js",
+    "main.js.map": "/CodeWithCoder/static/js/main.59e57a36.chunk.js.map",
     "runtime-main.js": "/CodeWithCoder/static/js/runtime-main.95f198b2.js",
     "runtime-main.js.map": "/CodeWithCoder/static/js/runtime-main.95f198b2.js.map",
-    "static/css/2.78e0feef.chunk.css": "/CodeWithCoder/static/css/2.78e0feef.chunk.css",
-    "static/js/2.5fb0f594.chunk.js": "/CodeWithCoder/static/js/2.5fb0f594.chunk.js",
-    "static/js/2.5fb0f594.chunk.js.map": "/CodeWithCoder/static/js/2.5fb0f594.chunk.js.map",
+    "static/css/2.bb6eca75.chunk.css": "/CodeWithCoder/static/css/2.bb6eca75.chunk.css",
+    "static/js/2.c11d0f7f.chunk.js": "/CodeWithCoder/static/js/2.c11d0f7f.chunk.js",
+    "static/js/2.c11d0f7f.chunk.js.map": "/CodeWithCoder/static/js/2.c11d0f7f.chunk.js.map",
     "index.html": "/CodeWithCoder/index.html",
-    "precache-manifest.295c3d7e4daf076d2c96804d8920d01e.js": "/CodeWithCoder/precache-manifest.295c3d7e4daf076d2c96804d8920d01e.js",
+    "precache-manifest.9a41f2b7516ccc66f80e933a178534e8.js": "/CodeWithCoder/precache-manifest.9a41f2b7516ccc66f80e933a178534e8.js",
     "service-worker.js": "/CodeWithCoder/service-worker.js",
-    "static/css/2.78e0feef.chunk.css.map": "/CodeWithCoder/static/css/2.78e0feef.chunk.css.map",
+    "static/css/2.bb6eca75.chunk.css.map": "/CodeWithCoder/static/css/2.bb6eca75.chunk.css.map",
     "static/css/main.22788034.chunk.css.map": "/CodeWithCoder/static/css/main.22788034.chunk.css.map",
-    "static/js/2.5fb0f594.chunk.js.LICENSE.txt": "/CodeWithCoder/static/js/2.5fb0f594.chunk.js.LICENSE.txt",
+    "static/js/2.c11d0f7f.chunk.js.LICENSE.txt": "/CodeWithCoder/static/js/2.c11d0f7f.chunk.js.LICENSE.txt",
     "static/media/Aboutimg.png": "/CodeWithCoder/static/media/Aboutimg.d0d141c4.png",
     "static/media/My-Resume.pdf": "/CodeWithCoder/static/media/My-Resume.e5c81e4a.pdf",
     "static/media/about-us.png": "/CodeWithCoder/static/media/about-us.52bec8f6.png",
@@ -22,9 +22,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.95f198b2.js",
-    "static/css/2.78e0feef.chunk.css",
-    "static/js/2.5fb0f594.chunk.js",
+    "static/css/2.bb6eca75.chunk.css",
+    "static/js/2.c11d0f7f.chunk.js",
     "static/css/main.22788034.chunk.css",
-    "static/js/main.ef9ac451.chunk.js"
+    "static/js/main.59e57a36.chunk.js"
   ]
 }
